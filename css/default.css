@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    height: 31px;
+    width: 31px;
+}
+
+#map {
+    height: 100%;
+    width: 100%
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+#legend{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 999;
+    background-color: #111307;
+    color: #ffffff;
+    border-radius: 2px;
+}
+#color{
+    position: absolute;
+    left: 5px;
+    bottom: 3px;
+}
+#min{
+    float: left;
+}
+#max{
+    float: right;
+}
